@@ -1,5 +1,6 @@
+A task given by @Prodigy InfoTech #ProdigyInfoTech during intership:
 # PRODIGY_WD_1
-**Responsive Landing Page:**
+**Responsive Landing Page:** 
 
 ![webpage1](https://github.com/TechTinkerbell13/PRODIGY_WD_1/assets/159616855/7aaa7143-42eb-4ea0-814c-2b6d7e81be53)
 
