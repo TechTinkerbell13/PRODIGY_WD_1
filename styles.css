@@ -21,6 +21,7 @@
     padding: 5rem 1rem;
     max-width: var(--max-width);
     margin: auto;
+    overflow: hidden;
 }
 
 .section__title {
@@ -78,9 +79,9 @@ h3 {
     display: flex;
     list-style: none;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     justify-content: center;
-    padding: 0 1rem;
+    padding: 0 2rem;
 }
 
 .link {
@@ -88,6 +89,7 @@ h3 {
     text-transform: uppercase;
     cursor: pointer;
     transition: 0.3s;
+    font-size: 0.9rem;
 }
 
 .link:hover {
@@ -100,7 +102,7 @@ header {
         rgba(45,92,132,.5),
         rgba(45,92,132,.5)
     ),
-    url("assets/bg1.jpg");
+    url("./assets/bg1.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -129,6 +131,8 @@ header .section__container {
 
 .header__content p {
     text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 .header__content button {
@@ -222,7 +226,7 @@ header .section__container {
         rgba(35,71,103,0.5),
         rgba(35,71,103,0.5)
       ),
-      url("assets/bg2.jpg");
+      url("./assets/bg2.jpg");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -345,6 +349,11 @@ footer p {
 
     .nav__links{
         display: flex;
+    }
+
+    .booknow {
+        display: flex;
+        padding: 0.5rem 1rem;
     }
 
     header .section__container {
